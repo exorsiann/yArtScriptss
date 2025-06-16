@@ -1,33 +1,39 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #ff0000, #ffffff);
-  color: #333;
+  background: linear-gradient(90deg, #ff0000, #ffffff);
+  color: #fff;
 }
 
 .sidebar {
-  width: 200px;
+  width: 220px;
   height: 100vh;
   background-color: #b30000;
-  color: white;
   position: fixed;
+  left: 0;
+  top: 0;
   padding: 20px;
 }
 
 .sidebar h2 {
   margin-top: 0;
+  color: white;
+  font-size: 24px;
 }
 
 .sidebar ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
 }
 
 .sidebar ul li a {
   color: white;
   text-decoration: none;
-  display: block;
-  margin: 10px 0;
+  font-size: 18px;
 }
 
 .sidebar ul li a:hover {
@@ -35,6 +41,15 @@ body {
 }
 
 .content {
-  margin-left: 220px;
-  padding: 20px;
+  margin-left: 240px;
+  padding: 30px;
+  color: black;
+}
+
+.content h1 {
+  color: #333;
+}
+
+a {
+  color: blue;
 }
